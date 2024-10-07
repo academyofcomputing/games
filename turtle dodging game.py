@@ -22,10 +22,6 @@ def move_right():
 def is_collision(t1, t2):
     return t1.distance(t2) < 20
 
-def display_score():
-    t.goto(-200, 300)
-    t.write("Game Over", align='center', font=("Berlin Sans FB Demi", 30, 'bold'))
-
 def game_over():
     t.color('red')
     t.goto(0, 0)
