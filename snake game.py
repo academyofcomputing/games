@@ -1,18 +1,4 @@
-Skip to content
- 
-Search Gists
-Search...
-All gists
-Back to GitHub
-@academyofcomputing
-academyofcomputing/snake game Secret
-Created 4 months ago
-Code
-Revisions
-1
-Clone this repository at &lt;script src=&quot;https://gist.github.com/academyofcomputing/f1c4d041185256c54a093cdc2d14308b.js&quot;&gt;&lt;/script&gt;
-<script src="https://gist.github.com/academyofcomputing/f1c4d041185256c54a093cdc2d14308b.js"></script>
-snake game
+
 #################################
 # initialization
 #################################
@@ -29,7 +15,6 @@ wn.bgcolor('black')
 wn.title('Snake Game')
 wn.tracer(0)
 
-
 # Snake head
 head = t.Turtle()
 head.speed(0) #set animation speed to highest
@@ -41,8 +26,6 @@ head.direction = "stop"
 
 # Snake body
 body = []
-
-### exercise: create the food with red color, circle shape at location (100, 100)
 
 # food
 food = t.Turtle()
@@ -66,8 +49,6 @@ pen.goto(0, 260)
 pen.write("Score: 0  High Score: 0", align="center", font=("Courier", 24, "bold"))
 
 delay = 0.1
-
-
 
 #################################
 # function
@@ -112,8 +93,6 @@ wn.onkeypress(go_up, "Up")
 wn.onkeypress(go_down, "Down")
 wn.onkeypress(go_left, "Left")
 wn.onkeypress(go_right, "Right")
-
-
 
 # ###################################
 # # # # while loop for game logic
@@ -182,20 +161,3 @@ while True:
 
     head_move()
     time.sleep(delay)
-@academyofcomputing
-Comment
- 
-Leave a comment
- 
-Footer
-© 2024 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact
-Manage cookies
-Do not share my personal information
-snake game
